@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Fira+Mono&display=swap');
+
+:root, [data-bs-theme=light] {
+
+    --bs-primary-rgb: 10,15,29;
+    --bs-secondary-rgb: 6,8,17;
+    --bs-light-rgb: 255, 230, 0;
+    --bs-dark-rgb: 111, 109, 109;
+    
+}
