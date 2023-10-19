@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&family=Fira+Mono&display=swap');
 
 body {
-    font-family: "Fira Mono", sans-serif;
+    font-family: "Fira Code", sans-serif;
     font-weight: 700;
     list-style: none;
+    color:#fff;
 }
 
 :root, [data-bs-theme=light] {
@@ -11,12 +12,13 @@ body {
     --bs-primary-rgb: 10, 15, 29; /*Azul Marinho*/
     --bs-secondary-rgb: 6, 8 , 17; /*Azul Escuro*/
     --bs-warning-rgb: 255, 230, 0; /*Amarelo*/
+    --bs-success-rgb: 111, 109, 109; /*cinza*/
 
 }
 
 .btn-primary {
-    padding: 15px;
-    --bs-btn-color: #00000;
+    padding: 12px;
+    --bs-btn-color: black;
     --bs-btn-bg: #ffe600;
     --bs-btn-border-color: #ffe600;
     --bs-btn-hover-color: #fff;
@@ -26,11 +28,11 @@ body {
 }
 
 .btn-secondary {
-    padding: 15px;
+    padding: 12px;
     --bs-btn-color: #fff;
     --bs-btn-bg: #0a0f1d;
     --bs-btn-border-color: #ffe600;
-    --bs-btn-hover-color: #00000;
+    --bs-btn-hover-color: black;
     --bs-btn-hover-bg: #ffe600;
     --bs-btn-hover-border-color: #ffe600;
 

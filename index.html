@@ -8,7 +8,7 @@
     <title>@gabriel_san_lopes_</title>
 </head>
 <body class="bg-primary">
-    <nav class="navbar navbar-expand-sm navbar-dark m-4">
+    <nav class="navbar navbar-expand-sm navbar-dark p-4 border-bottom border-success border-opacity-0">
         <div class="container-fluid">
 
             <p class="text-warning navbar-brand h1">
@@ -33,14 +33,19 @@
         </div>
     </nav>
 
-    <section class="m-5">
-        <div class="container d-flex justify-content-between align-items-center p-5">
-            <div>
-                <h3 class="text-warning" style="font-size: 20px;">Olá! Meu nome é...</h3>
-                <h1 class="text-light" style="font-size: 50px; font-family: 'Fira Code';">Gabriel dos Santos</h1>
-                <h2 class="text-light" style="font-size: 35px;">Desenvolvedor Web Front-End</h2>
+    <section style= "height: 500px;" class="p-5 d-flex justify-content-center align-items-center border-bottom border-warning">
+
+        <div class="d-flex justify-content-between align-items-center p-5">
+            
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="text-warning" style="font-size: 20px;">Olá, muito prazer! Meu nome é...</h3>
+                    <h1 class="fw-bold" style="font-size: 50px;">Gabriel dos Santos</h1>
+                    <h2 class="fw-light" style="font-size: 35px;">Desenvolvedor Full-Stack</h2>
+                </div>
+
                 
-                <div>
+                <div class="p-2">
                     <a href="#" class="btn btn-primary">
                         Fale Comigo!
                     </a>
@@ -50,12 +55,40 @@
                     </a>
                 </div>                
             </div>
-
-            <img src="imagens/foto.home.jpeg" class="w-25 rounded-circle" alt="foto perfil">
         </div>
     </section>
 
-    <section></section>
+    <section class="bg-secondary p-5">
+
+        <div class="d-flex flex-column align-items-center">
+            <h3 class="text-warning" style="font-size: 20px;">O que eu faço?</h3>
+            <h2 class="fw-bold" style="font-size: 25px;">Eu dou vida a ideias através de websites!</h2>
+            <h4 class="fw-light text-sucess" style="font-size: 20px;">Para atingir esse feito, utilizo 3 principais competências</h4>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-body">
+                    img
+                    <h3 class="card-title">Designer</h3>
+                    <p class="card-text">
+                        Com meus projetos caracteristicos, e ao mesmo tempo únicos, procuro trazer um minimalismo
+                        com elegância!
+                    </p>
+
+                    <hr>
+
+                    <h5 class="card-subtitle">Ferramentas que utilizo:</h5>
+                    <ul>
+                        <li>Designer de afinidade</li>
+                        <li>Figma</li>
+                        <li>Google Fonts</li>
+                        <li>Sketch book</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
