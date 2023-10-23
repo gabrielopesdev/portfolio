@@ -10,13 +10,14 @@
 </head>
 <body class="bg-primary">
     <header class="fixed-top bg-primary" style="--bs-bg-opacity: .75;">
-        <div class="container">
+        <div>
             <nav class="navbar navbar-expand-xxl navbar-dark p-4 bg-transparent">
                 <div class="container-fluid">
-                    <p class="text-warning navbar-brand h1 m-0">
-                        {dev.<spam class="text-light">gabriel</spam>}
-                    </p>
-
+                    <a href="#home" style="text-decoration: none;">
+                        <p class="text-warning navbar-brand h1 m-0">
+                            {dev.<spam class="text-light">gabriel</spam>}
+                        </p>
+                    </a>
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -27,19 +28,19 @@
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="btn d-flex p-0" data-bs-toggle="dropdown">
-                                        <img class="icon" src="imagens/br-icon.png" alt="brazil-icon">
+                                        <img class="icon" src="imagens/icons-navbar/br-icon.png" alt="brazil-icon">
                                         <p class="text-white">PT|BR</p>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" style="list-style: none;">
                                         <li>
                                             <button class="dropdown-item d-flex"> 
-                                                <img class="icon" src="imagens/eua-icon.png" alt="brazil-icon">
+                                                <img class="icon" src="imagens/icons-navbar/eua-icon.png" alt="brazil-icon">
                                                 <p class="text-white">EN|EUA</p>
                                             </button>
                                         </li>
                                         <li>
                                             <button class="dropdown-item d-flex">
-                                                <img class="icon" src="imagens/espan-icon.png" alt="brazil-icon">
+                                                <img class="icon" src="imagens/icons-navbar/espan-icon.png" alt="brazil-icon">
                                                 <p class="text-white">ESPAN</p>
                                             </button>
                                         </li>
@@ -47,16 +48,16 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#home">01.home</a>
                             </li>
                             <li class="nav-item">
-                                <a  class="nav-link" href="#">O que eu faço?</a>
+                                <a class="nav-link" href="#skills">02.o que eu faço?</a>
                             </li>
                             <li class="nav-item">
-                                <a  class="nav-link" href="#">Meus trabalhos</a>
+                                <a class="nav-link" href="#works">03.meus trabalhos</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">04.contato</a>
                             </li>
                             <li class="nav-item">
                                 <div>
@@ -73,7 +74,7 @@
     </header>
 
 
-    <section style= "height: 600px;" class="p-5 d-flex justify-content-center align-items-center">
+    <section style= "height: 600px;" class="p-5 d-flex justify-content-center align-items-center" id="home">
 
         <div class="d-flex justify-content-between align-items-center p-5">
             
@@ -98,7 +99,7 @@
         </div>
     </section>
 
-    <section class="section2 bg-secondary p-5">
+    <section class="section2 bg-secondary p-5" id="skills">
 
         <div class="d-flex flex-column align-items-center">
             <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">O que eu faço?</h3>
@@ -110,7 +111,7 @@
             <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
 
                 <div class="text-white card-body">
-                    <img class="m-3" src="imagens/designer-icon.png" alt="#">
+                    <img class="m-3" src="imagens/skills-icons/designer-icon.png" alt="#">
                     <h3 class="card-title fw-bold">Designer</h3>
                     <p class="card-text fw-light">
                         Com meus conhecimentos de design, procuro trazer minimalismo e elegãncia aos meus projetos!
@@ -132,7 +133,7 @@
             <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
 
                 <div class="text-white card-body">
-                    <img class="m-3" src="imagens/front-end -icon.png" alt="#">
+                    <img class="m-3" src="imagens/skills-icons/front-end -icon.png" alt="#">
                     <h3 class="card-title fw-bold">Front-End</h3>
                     <p class="card-text fw-light">
                         Com meus conhecimentos no Front-End, procuro desenvover meu projetos sempre focando em uma melhor
@@ -162,7 +163,7 @@
             <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
 
                 <div class="text-white card-body">
-                    <img class="m-3" src="imagens/back-end icon.png" alt="#">
+                    <img class="m-3" src="imagens/skills-icons/back-end icon.png" alt="#">
                     <h3 class="card-title fw-bold">Back-End</h3>
                     <p class="card-text fw-light">
                         Com meus conhecimentos no Back-End, procuro sempre desenvolver códigos
@@ -194,52 +195,80 @@
     </section>
     <section class="bg-primary p-5">
 
-        <div class="container">
+        <div class="">
 
-            <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center text-center" id="works">
                 <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">Meus trabalhos!</h3>
                 <h2 class="fw-bold" style="font-size: 25px;">São todos únicos, para atender nescessidades únicas.</h2>
                 <h4 class="fw-light text-sucess" style="font-size: 20px;">Esses são alguns dos trabalhos que trabalhei recentemente:</h4>
             </div>
 
-            <div class="d-flex flex-row justify-content-center flex-wrap  m-5">
+            <div class="d-flex flex-row justify-content-center flex-wrap m-5">
                 <div class="m-2">
-                    <img src="imagens/link-bio.png" alt="">
+                    <img src="imagens/works-images/link-bio.png" alt="">
                 </div>
                 <div class="m-2">
-                    <img src="imagens/perfume-section.png" alt="">
+                    <img src="imagens/works-images/link-bio.png" alt="">
                 </div>
                 <div class="m-2">
-                    <img src="imagens/portifolio-ana.png" alt="">
+                    <img src="imagens/works-images/link-bio.png" alt="">
                 </div>
                 <div class="m-2">
-                    <img src="imagens/pomodoro-project.png" alt="">
+                    <img src="imagens/works-images/link-bio.png" alt="">
+                </div>
+                <div class="m-2">
+                    <img src="imagens/works-images/link-bio.png" alt="">
+                </div>
+                <div class="m-2">
+                    <img src="imagens/works-images/link-bio.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-secondary p-5">
+    <section class="bg-secondary p-5" id="contato">
         <div class="container d-flex flex-column align-items-center gap-5">
-            <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center text-center">
                 <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">Diga Olá!</h3>
                 <h2 class="fw-bold" style="font-size: 25px;">Gostou do que viu? Quer trabalhar comigo? Entre em contato.</h2>
                 <h4 class="fw-light text-sucess" style="font-size: 20px;">Me mande um e-mail ou acesse minhas redes :)</h4>
             </div>
 
             <div>
-                <ul style="list-style: none;" class=" d-flex flex-column align-items-center">
+                <ul style="list-style: none;" class=" d-flex flex-column align-items-center gap-3">
                     <li>
-                        <h5>lopesdeveloperweb@gmail.com</h5>
+                        <div class="container">
+                            <a href="mailto:anamaria.amc498@gmail.com" target="_blank" class="d-flex gap-2">
+                                <img class="icon" src="imagens/social-media-icons/gmail-icon.png" alt="">
+                                <h5>lopesdeveloperweb@gmail.com</h5>
+                            </a>
+                        </div>
+
                     </li>
                     <li>
-                        <h5>Twitter</h5>
+                        <div class="container">
+                            <a href="https://twitter.com/gabrielopes_dev" target="_blank" class="d-flex gap-2">
+                                <img class="icon" src="imagens/social-media-icons/twitter-icon.png" alt="">
+                                <h5>Twitter</h5>
+                            </a>
+                        </div>
+
                     </li>
                     <li>
-                        <h5>GitHub</h5>
+                        <div class="container">
+                            <a href="https://github.com/gabrielopesdev" target="_blank" class="d-flex gap-2">
+                                <img class="icon" src="imagens/social-media-icons/github-icon.png" alt="">
+                                <h5>GitHub</h5>
+                            </a>                            
+                        </div>
                     </li>
                     <li>
-                        <h5>Linkdin</h5>
+                        <div class="container">
+                            <a href="https://www.linkedin.com/in/gabriel-dos-santos-lopes-190645246/" target="_blank" class="d-flex gap-2">
+                                <img class="icon" src="imagens/social-media-icons/linkdin-icon.png" alt="">
+                                <h5>Linkdin</h5>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
