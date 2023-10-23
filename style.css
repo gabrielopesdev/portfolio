@@ -17,7 +17,7 @@ body {
 }
 
 .btn-primary {
-    padding: 12px;
+    padding: 10px;
     --bs-btn-color: black;
     --bs-btn-bg: #ffe600;
     --bs-btn-border-color: #ffe600;
@@ -28,7 +28,7 @@ body {
 }
 
 .btn-secondary {
-    padding: 12px;
+    padding: 10px;
     --bs-btn-color: #fff;
     --bs-btn-bg: #0a0f1d;
     --bs-btn-border-color: #ffe600;
