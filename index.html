@@ -11,7 +11,7 @@
 <body class="bg-primary">
     <header class="fixed-top bg-primary" style="--bs-bg-opacity: .75;">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-4 bg-transparent">
+            <nav class="navbar navbar-expand-xxl navbar-dark p-4 bg-transparent">
                 <div class="container-fluid">
                     <p class="text-warning navbar-brand h1 m-0">
                         {dev.<spam class="text-light">gabriel</spam>}
@@ -23,7 +23,29 @@
 
                     <div id="navbarNav" class="navbar-collapse collapse">
 
-                        <ul class="navbar-nav ms-auto m-0 gap-4">
+                        <ul class="navbar-nav ms-auto m-2 gap-5">
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <button class="btn d-flex p-0" data-bs-toggle="dropdown">
+                                        <img class="icon" src="imagens/br-icon.png" alt="brazil-icon">
+                                        <p class="text-white">PT|BR</p>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" style="list-style: none;">
+                                        <li>
+                                            <button class="dropdown-item d-flex"> 
+                                                <img class="icon" src="imagens/eua-icon.png" alt="brazil-icon">
+                                                <p class="text-white">EN|EUA</p>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="dropdown-item d-flex">
+                                                <img class="icon" src="imagens/espan-icon.png" alt="brazil-icon">
+                                                <p class="text-white">ESPAN</p>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Home</a>
                             </li>
@@ -36,13 +58,14 @@
                             <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
                             </li>
+                            <li class="nav-item">
+                                <div>
+                                    <a href="#" class="btn btn-primary">
+                                        Fale Comigo!
+                                    </a>
+                                </div>                            
+                            </li>    
                         </ul>
-                        
-                        <div style="margin-left: 30px;">
-                            <a href="#" class="btn btn-primary">
-                                Fale Comigo!
-                            </a>
-                        </div>
                     </div>
                 </div>
             </nav>
@@ -75,7 +98,7 @@
         </div>
     </section>
 
-    <section class="bg-secondary p-5">
+    <section class="section2 bg-secondary p-5">
 
         <div class="d-flex flex-column align-items-center">
             <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">O que eu faço?</h3>

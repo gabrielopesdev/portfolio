@@ -37,3 +37,12 @@ body {
     --bs-btn-hover-border-color: #ffe600;
 
 }
+
+.navbar-nav .nav-item a:hover {
+    color: rgb(255, 230, 0);
+}
+
+.icon {
+    max-width: 40px;
+    margin-right: 5px;
+}
