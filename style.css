@@ -7,6 +7,10 @@ body {
     color:#fff;
 }
 
+ul{ 
+    list-style: none;
+}
+
 :root, [data-bs-theme=light] {
 
     --bs-primary-rgb: 10, 15, 29; /*Azul Marinho*/
@@ -44,4 +48,9 @@ body {
 
 .icon {
     max-width: 30px;
+}
+
+#works-list .works-list-item:hover {
+    display: none;
+    background-color: #ffe600;
 }
