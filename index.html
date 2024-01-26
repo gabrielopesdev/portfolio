@@ -26,26 +26,7 @@
 
                         <ul class="navbar-nav ms-auto m-2 gap-5">
                             <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn d-flex" data-bs-toggle="dropdown">
-                                        <img class="icon" src="imagens/icons-navbar/br-icon.png" alt="brazil-icon">
-                                        <p class="text-white">PT|BR</p>
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" style="list-style: none;">
-                                        <li>
-                                            <button class="dropdown-item d-flex"> 
-                                                <img class="icon" src="imagens/icons-navbar/eua-icon.png" alt="brazil-icon">
-                                                <p class="text-white">EN|EUA</p>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="dropdown-item d-flex">
-                                                <img class="icon" src="imagens/icons-navbar/espan-icon.png" alt="brazil-icon">
-                                                <p class="text-white">ESPAN</p>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <div class="gtranslate_wrapper"></div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#home">01.home</a>
@@ -74,7 +55,7 @@
     </header>
 
 
-    <section style= "height: 600px;" class="p-5 d-flex justify-content-center align-items-center" id="home">
+    <section style= "height: 600px;" class="pt-5 d-flex justify-content-center align-items-center" id="home">
 
         <div class="d-flex justify-content-between align-items-center p-5">
             
@@ -337,9 +318,14 @@
                 </ul>
             </div>
         </div>
-
     </section>
 </body>
+
+<!--Tradutor-->
+<script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","en","es"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
+<!--Cursor-->
 <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
 <script type="module" src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
