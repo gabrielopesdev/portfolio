@@ -9,8 +9,8 @@
     <title>@gabriel_san_lopes_</title>
 </head>
 <body class="bg-primary">
-    <header class="fixed-top bg-primary" style="--bs-bg-opacity: .75;">
-        <div>
+    <header class="fixed-top bg-primary" style="--bs-bg-opacity: .75;" id="header">
+        <div class="content">
             <nav class="navbar navbar-expand-xxl navbar-dark p-4 bg-transparent">
                 <div class="container-fluid">
                     <a href="#home" style="text-decoration: none;">
@@ -60,17 +60,16 @@
 
     <section style= "height: 600px;" class="pt-5 d-flex justify-content-center align-items-center" id="home">
 
-        <div class="d-flex justify-content-between align-items-center p-5">
-            
-            <div class="d-flex flex-column align-items-center" data-aos="fade-up">
-                <div class="d-flex flex-column align-items-center">
-                    <h3 class="text-warning" style="font-size: 20px;">Olá, muito prazer! Meu nome é...</h3>
-                    <h1 class="fw-bold" style="font-size: 50px;">Gabriel dos Santos</h1>
-                    <h2 class="fw-light" style="font-size: 35px;">Desenvolvedor Full-Stack</h2>
+        <div class="container justify-content-between align-items-center p-5">
+            <div class="content d-flex flex-column align-items-center" data-aos="fade-up">
+                <div class="apresentation d-flex flex-column align-items-center">
+                    <h3 class="h3 text-warning">Olá, muito prazer! Meu nome é...</h3>
+                    <h1 class="h1 fw-bold">Gabriel dos Santos</h1>
+                    <h2 class="h2 fw-light">Desenvolvedor Full-Stack</h2>
                 </div>
 
                 
-                <div class="p-2">
+                <div class= "button-menu p-2">
                     <a href="https://wa.me/5512996770403?text=Olá!" class="btn btn-primary" target="_blank">
                         Fale Comigo!
                     </a>
@@ -83,230 +82,243 @@
         </div>
     </section>
 
-    <section class="section2 bg-secondary p-5" id="skills">
-
-        <div class="d-flex flex-column align-items-center">
-            <h3 class="text-warning" style="font-size: 20px;">O que eu faço?</h3>
-            <h2 class="fw-bold" style="font-size: 25px;">Eu dou vida a ideias através de websites!</h2>
-            <h4 class="fw-light text-sucess" style="font-size: 20px;">Para atingir esse feito, utilizo 3 principais competências:</h4>
-        </div>
-
-        <div class="cards d-flex justify-content-center flex-wrap m-5">
-            <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
-
-                <div class="text-white card-body">
-                    <img class="m-3" src="imagens/skills-icons/designer-icon.png" alt="#">
-                    <h3 class="card-title fw-bold">Designer</h3>
-                    <p class="card-text fw-light">
-                        Com meus conhecimentos de design, procuro trazer minimalismo e elegãncia aos meus projetos!
-                    </p>
-
-                    <hr>
-
-                    <h5 class="m-3 card-subtitle list-title text-warning fw-normal">
-                        caixa de ferramentas:</h5>
-                    <ul class="list-group fw-light" style="list-style: none;">
-                        <li>Designer de afinidade</li>
-                        <li>Figma</li>
-                        <li>Google Fonts</li>
-                        <li>Sketch book</li>
-                    </ul>
+    <section class="bg-secondary p-5" id="skills">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="content">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="h4 text-warning" >O que eu faço?</h4>
+                    <h2 class="h2 fw-bold">Eu dou vida a ideias através de websites!</h2>
+                    <h3 class="h3 fw-light text-sucess">Para isso utilizo 3 principais competências:</h3>
                 </div>
+
+                <div class="cards d-flex justify-content-center flex-wrap m-5">
+                    <div style="max-width: 350px;" class="card border-primary text-center bg-primary p-4 m-1">
+
+                        <div class="text-white card-body">
+                            <img class="m-3" src="imagens/skills-icons/designer-icon.png" alt="#">
+                            <h3 class="card-title fw-bold">Designer</h3>
+                            <p class="card-text fw-light">
+                                Com meus conhecimentos de design, procuro trazer minimalismo e elegãncia aos meus projetos!
+                            </p>
+
+                            <hr>
+
+                            <h5 class="m-3 card-subtitle list-title text-warning fw-normal">
+                                caixa de ferramentas:</h5>
+                            <ul class="list-group fw-light" style="list-style: none;">
+                                <li>Designer de afinidade</li>
+                                <li>Figma</li>
+                                <li>Google Fonts</li>
+                                <li>Sketch book</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="max-width: 350px;" class="card border-primary text-center bg-primary p-4 m-1">
+
+                        <div class="text-white card-body">
+                            <img class="m-3" src="imagens/skills-icons/front-end -icon.png" alt="#">
+                            <h3 class="card-title fw-bold">Front-End</h3>
+                            <p class="card-text fw-light">
+                                Com meus conhecimentos no Front-End, procuro desenvover meu projetos sempre focando em uma melhor
+                                expreriência para o usuário!
+                            </p>
+
+                            <hr>
+
+                            <h5 class="m-3 card-subtitle list-title text-warning fw-normal">Linguagens em que programo:</h5>
+                            <ul class="list-group fw-light" style="list-style: none;">
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+
+                            <h5 class="m-3 card-subtitle list-title text-warning fw-normal">caixa de ferramentas:</h5>
+                            <ul class="list-group fw-light" style="list-style: none;">
+                                <li>React.Js</li>
+                                <li>Bootstrap</li>
+                                <li>Jquery</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="max-width: 350px;" class="card border-primary text-center bg-primary p-4 m-1">
+
+                        <div class="text-white card-body">
+                            <img class="m-3" src="imagens/skills-icons/back-end icon.png" alt="#">
+                            <h3 class="card-title fw-bold">Back-End</h3>
+                            <p class="card-text fw-light">
+                                Com meus conhecimentos no Back-End, procuro sempre desenvolver códigos
+                                com melhor gerenciamento e alimentação de dados, melhorando a expreriência
+                                do usuário
+                            </p>
+
+                            <hr>
+
+                            <h5 class="m-3 card-subtitle list-title text-warning fw-normal">
+                                Linguagens em que programo:
+                            </h5>
+                            <ul class="list-group fw-light" style="list-style: none;">
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <h5 class="m-3 card-subtitle list-title text-warning fw-normal">caixa de ferramentas:</h5>
+                            <ul class="list-group fw-light" style="list-style: none;">
+                                <li>Firebase</li>
+                                <li>Node.Js</li>
+                                <li>MongoDB</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
             </div>
-
-            <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
-
-                <div class="text-white card-body">
-                    <img class="m-3" src="imagens/skills-icons/front-end -icon.png" alt="#">
-                    <h3 class="card-title fw-bold">Front-End</h3>
-                    <p class="card-text fw-light">
-                        Com meus conhecimentos no Front-End, procuro desenvover meu projetos sempre focando em uma melhor
-                        expreriência para o usuário!
-                    </p>
-
-                    <hr>
-
-                    <h5 class="m-3 card-subtitle list-title text-warning fw-normal">Linguagens em que programo:</h5>
-                    <ul class="list-group fw-light" style="list-style: none;">
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-
-                    <h5 class="m-3 card-subtitle list-title text-warning fw-normal">caixa de ferramentas:</h5>
-                    <ul class="list-group fw-light" style="list-style: none;">
-                        <li>React.Js</li>
-                        <li>Bootstrap</li>
-                        <li>Jquery</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div style="max-width: 400px;" class="card border-primary text-center bg-primary p-4 m-1">
-
-                <div class="text-white card-body">
-                    <img class="m-3" src="imagens/skills-icons/back-end icon.png" alt="#">
-                    <h3 class="card-title fw-bold">Back-End</h3>
-                    <p class="card-text fw-light">
-                        Com meus conhecimentos no Back-End, procuro sempre desenvolver códigos
-                        com melhor gerenciamento e alimentação de dados, melhorando a expreriência
-                        do usuário
-                    </p>
-
-                    <hr>
-
-                    <h5 class="m-3 card-subtitle list-title text-warning fw-normal">
-                        Linguagens em que programo:
-                    </h5>
-                    <ul class="list-group fw-light" style="list-style: none;">
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                    </ul>
-
-                    <h5 class="m-3 card-subtitle list-title text-warning fw-normal">caixa de ferramentas:</h5>
-                    <ul class="list-group fw-light" style="list-style: none;">
-                        <li>Firebase</li>
-                        <li>Node.Js</li>
-                        <li>MongoDB</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                    </ul>
-                </div>
-            </div>
+  
         </div>
     </section>
     <section class="works bg-primary p-5">
+        <div class="container">
+            <div class="content">
+                <div class="d-flex flex-column align-items-center text-center" id="works">
+                    <h3 class="h3 text-warning text-decoration-line-through0">Meus trabalhos!</h3>
+                    <h2 class="h2 fw-bold">São todos únicos, para atender nescessidades únicas.</h2>
+                    <h4 class="h4 fw-light text-sucess">Esses são alguns dos trabalhos que trabalhei recentemente:</h4>
+                </div>
 
-        <div class="d-flex flex-column align-items-center text-center" id="works">
-            <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">Meus trabalhos!</h3>
-            <h2 class="fw-bold" style="font-size: 25px;">São todos únicos, para atender nescessidades únicas.</h2>
-            <h4 class="fw-light text-sucess" style="font-size: 20px;">Esses são alguns dos trabalhos que trabalhei recentemente:</h4>
+                <div class="d-flex flex-row justify-content-center flex-wrap m-5">
+                    <div class="card" style="width: 18rem;">
+                        <a href="http://anapersonalchef.website/" class="text-decoration-none" target="_blank">
+                            <img src="imagens/works-images/portifolio-ana.png" class="card-img-top" alt="...">
+                            <div class="p-3">
+                                <p class="text-success">descrição:</p>
+                                <p class="h5 text-warning">Portfólio de Ana Maria</p>
+                                <p class="text-white"> Este foi o meu primeiro projeto profissional!</p>
+                                <p class="text-success">ferramentas utilizadas:</p>
+                                <ul class="text-white">
+                                    <li>
+                                        JavaScript
+                                    </li>
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                </ul>
+                            </div>                    
+                        </a>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://gabrielopesdev.github.io/social-media-links-page/" class="text-decoration-none" target="_blank">
+                            <img src="imagens/works-images/link-bio.png" class="card-img-top" alt="...">
+                            <div class="p-3">
+                                <p class="text-success">descrição:</p>
+                                <p class="h5 text-warning">Link para redes sociais</p>
+                                <p class="text-white">Esta é uma página que utilzo para divulgar minhas redes!</p>
+                                <p class="text-success">ferramentas utilizadas:</p>
+                                <ul class="text-white">
+                                    <li>
+                                        JavaScript
+                                    </li>
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                </ul>
+                            </div>                    
+                        </a>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <a href="" class="text-decoration-none">
+                            <img src="imagens/works-images/pomodoro-project.png" class="card-img-top" alt="...">
+                            <div class="p-3">
+                                <p class="text-success">descrição:</p>
+                                <p class="h5 text-warning">Pomodoro-timer</p>
+                                <p class="text-white">Este é um crônometro que utiliza a metodologia "pomodoro"!</p>
+                                <p class="text-success">ferramentas utilizadas:</p>
+                                <ul class="text-white">
+                                    <li>
+                                        JavaScript
+                                    </li>
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                </ul>
+                            </div>                    
+                        </a>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <a href="" class="text-decoration-none">
+                            <img src="imagens/works-images/perfume-section.png" class="card-img-top" alt="...">
+                            <div class="p-3">
+                                <p class="text-success">descrição:</p>
+                                <p class="h5 text-warning">Section para e-commerce</p>
+                                <p class="text-white">Esta é a primeira página que coloquei no ar!</p>
+                                <p class="text-success">ferramentas utilizadas:</p>
+                                <ul class="text-white">
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                </ul>
+                            </div>                    
+                        </a>
+                    </div>
+                </div>                
+            </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center flex-wrap m-5">
-            <div class="card" style="width: 18rem;">
-                <a href="http://anapersonalchef.website/" class="text-decoration-none" target="_blank">
-                    <img src="imagens/works-images/portifolio-ana.png" class="card-img-top" alt="...">
-                    <div class="p-3">
-                        <p class="text-success">descrição:</p>
-                        <p class="h5 text-warning">Portfólio de Ana Maria</p>
-                        <p class="text-white"> Este foi o meu primeiro projeto profissional!</p>
-                        <p class="text-success">ferramentas utilizadas:</p>
-                        <ul class="text-white">
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                        </ul>
-                    </div>                    
-                </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <a href="https://gabrielopesdev.github.io/social-media-links-page/" class="text-decoration-none" target="_blank">
-                    <img src="imagens/works-images/link-bio.png" class="card-img-top" alt="...">
-                    <div class="p-3">
-                        <p class="text-success">descrição:</p>
-                        <p class="h5 text-warning">Link para redes sociais</p>
-                        <p class="text-white">Esta é uma página que utilzo para divulgar minhas redes!</p>
-                        <p class="text-success">ferramentas utilizadas:</p>
-                        <ul class="text-white">
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                        </ul>
-                    </div>                    
-                </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <a href="" class="text-decoration-none">
-                    <img src="imagens/works-images/pomodoro-project.png" class="card-img-top" alt="...">
-                    <div class="p-3">
-                        <p class="text-success">descrição:</p>
-                        <p class="h5 text-warning">Pomodoro-timer</p>
-                        <p class="text-white">Este é um crônometro que utiliza a metodologia "pomodoro"!</p>
-                        <p class="text-success">ferramentas utilizadas:</p>
-                        <ul class="text-white">
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                        </ul>
-                    </div>                    
-                </a>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <a href="" class="text-decoration-none">
-                    <img src="imagens/works-images/perfume-section.png" class="card-img-top" alt="...">
-                    <div class="p-3">
-                        <p class="text-success">descrição:</p>
-                        <p class="h5 text-warning">Section para e-commerce</p>
-                        <p class="text-white">Esta é a primeira página que coloquei no ar!</p>
-                        <p class="text-success">ferramentas utilizadas:</p>
-                        <ul class="text-white">
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                        </ul>
-                    </div>                    
-                </a>
-            </div>
-        </div>
     </section>
 
     <section class="about-me bg-secondary p-5" id="about-me">
-        <div class="d-flex flex-column align-items-center">
-            <h3 class="text-warning" style="font-size: 20px;">Quem sou eu?</h3>
-            <h2 class="fw-bold" style="font-size: 25px;">Sou um jovem apaixonado por tecnologia!</h2>
-            <h4 class="fw-light text-sucess" style="font-size: 20px;">Um pequeno texto sobre quem sou e quais os meus meus objetivos:</h4>
+        <div class="container">
+            <div class="content">
+                <div class="description d-flex flex-column align-items-center">
+                    <h3 class="h3 text-warning">Quem sou eu?</h3>
+                    <h2 class="h2 fw-bold">Sou um jovem apaixonado por tecnologia!</h2>
+                    <h4 class="h4 fw-light text-sucess">Quem sou e quais os meus meus objetivos:</h4>
+                </div>
+
+                <div class="d-flex text m-5">
+                    <div class="image m-3">
+                        <img src="imagens/about_me/about-me-img.jpg" alt="eu"
+                        style="max-width: 300px;" class="border border-warning rounded">                
+                    </div>
+                    <div class="m-3">
+
+                        <p class="mb-5">Olá, meu nome é Gabriel, sou um jovem apaixonado por tecnologia e inovação, empenhado em moldar um futuro positivo através do poder da programação. Atualmente, estou imerso no universo da Engenharia de Software, buscando constantemente maneiras de criar soluções que impactem positivamente a vida das pessoas.</p>
+
+                        <p class="mb-5">Como programador fullstack, tenho a habilidade de navegar de ponta a ponta no desenvolvimento web, desde a concepção da ideia até a implementação prática. Minha jornada no mundo da programação não é apenas uma busca por conhecimento, mas sim uma missão para transformar essa paixão em ferramentas concretas que enriqueçam a vida das pessoas.</p>
+                        
+                        <p class="mb-5">Acredito que a tecnologia é uma força poderosa para impulsionar mudanças positivas. Cada linha de código que escrevo é uma oportunidade para criar algo significativo e útil. Meu objetivo de vida é deixar uma marca positiva, influenciando a sociedade através da inovação tecnológica.</p>
+                        
+                        <p class="mb-5">Se você compartilha dessa visão de um mundo impulsionado pela tecnologia para o bem, convido você a explorar meu portfólio. Juntos, podemos construir um futuro mais inteligente, eficiente e, acima de tudo, humanizado.</p>
+                        
+                        <p class="mb-5">Vamos criar juntos o próximo capítulo da revolução tecnológica, onde a inovação se encontra com a paixão por fazer a diferença na vida das pessoas.</p>
+                    </div>
+                </div                
+            </div>
         </div>
 
-        <div class="m-5 d-flex">
-            <div class="m-3">
-                <img src="imagens/about_me/about-me-img.jpg" alt="eu"
-                style="max-width: 300px;" class="border border-warning rounded">                
-            </div>
-            <div class="m-3">
-
-                <p class="mb-5">Olá, meu nome é Gabriel, sou um jovem apaixonado por tecnologia e inovação, empenhado em moldar um futuro positivo através do poder da programação. Atualmente, estou imerso no universo da Engenharia de Software, buscando constantemente maneiras de criar soluções que impactem positivamente a vida das pessoas.</p>
-
-                <p class="mb-5">Como programador fullstack, tenho a habilidade de navegar de ponta a ponta no desenvolvimento web, desde a concepção da ideia até a implementação prática. Minha jornada no mundo da programação não é apenas uma busca por conhecimento, mas sim uma missão para transformar essa paixão em ferramentas concretas que enriqueçam a vida das pessoas.</p>
-                
-                <p class="mb-5">Acredito que a tecnologia é uma força poderosa para impulsionar mudanças positivas. Cada linha de código que escrevo é uma oportunidade para criar algo significativo e útil. Meu objetivo de vida é deixar uma marca positiva, influenciando a sociedade através da inovação tecnológica.</p>
-                
-                <p class="mb-5">Se você compartilha dessa visão de um mundo impulsionado pela tecnologia para o bem, convido você a explorar meu portfólio. Juntos, podemos construir um futuro mais inteligente, eficiente e, acima de tudo, humanizado.</p>
-                
-                <p class="mb-5">Vamos criar juntos o próximo capítulo da revolução tecnológica, onde a inovação se encontra com a paixão por fazer a diferença na vida das pessoas.</p>
-            </div>
-        </div>
     </section>
 
     <section class="bg-primary p-5" id="contact">
         <div class="container d-flex flex-column align-items-center gap-5">
             <div class="d-flex flex-column align-items-center text-center">
-                <h3 class="text-warning text-decoration-line-through0" style="font-size: 20px;">Diga Olá!</h3>
-                <h2 class="fw-bold" style="font-size: 25px;">Gostou do que viu? Quer trabalhar comigo? Entre em contato.</h2>
-                <h4 class="fw-light text-sucess" style="font-size: 20px;">Me mande um e-mail ou acesse minhas redes :)</h4>
+                <h3 class="h3 text-warning">Diga Olá!</h3>
+                <h2 class="h2 fw-bold">Gostou do que viu? Quer trabalhar comigo? Entre em contato.</h2>
+                <h4 class="h4 fw-light text-sucess">Me mande um e-mail ou acesse minhas redes :)</h4>
             </div>
 
             <div>

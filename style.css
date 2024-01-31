@@ -5,12 +5,16 @@ body {
     font-weight: 400;
     list-style: none;
     color:#fff;
+
 }
 
 ul{ 
     list-style: none;
 }
 
+section {
+    min-width: 360px;
+}
 
 :root, [data-bs-theme=light] {
 
@@ -23,11 +27,11 @@ ul{
 
 .btn-primary {
     padding: 10px;
-    --bs-btn-color: black;
-    --bs-btn-bg: #ffe600;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0a0f1d;
     --bs-btn-border-color: #ffe600;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0a0f1d;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #ffe600;
     --bs-btn-hover-border-color: #ffe600;
 
 }
@@ -43,9 +47,6 @@ ul{
 
 }
 
-.navbar-nav .nav-item a:hover {
-    color: rgb(255, 230, 0);
-}
 
 .icon {
     max-width: 30px;
@@ -61,4 +62,82 @@ ul{
 
 .works .card:hover {
     transform: scale(1.15);
+}
+
+.h2 {
+    font-size: 25px;
+}
+
+.h3 {
+    font-size: 20px;
+}
+
+.h4 {
+    font-size: 20px;
+}
+
+#home .container .content .apresentation .h1 {
+    font-size: 50px;
+}
+
+#home .container .content .apresentation .h2 {
+    font-size: 35px
+}
+
+#home .container .content .apresentation .h3 {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    body {
+        min-width: 550px;
+        overflow-x: hidden;
+    }
+
+    .h2 {
+        font-size: 15px;
+    }
+    
+    .h3 {
+        font-size: 15px;
+    }
+    
+    .h4 {
+        font-size: 15px;
+    }
+
+    #home .container .content .apresentation .h1 {
+        font-size: 40px;
+    }
+    
+    #home .container .content .apresentation .h2 {
+        font-size: 25px
+    }
+    
+    #home .container .content .apresentation .h3 {
+        font-size: 15px;
+    }  
+
+    #about-me .container .content .text {
+        text-align: center;
+    }
+
+    #about-me .container .content .text .image {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    #about-me .container .content .text {
+        text-align: center;
+    }
+    
+    #about-me .container .content .text .image {
+        display: none;
+    }
+
 }
