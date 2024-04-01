@@ -36,18 +36,6 @@ section {
 
 }
 
-.btn-secondary {
-    padding: 10px;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #0a0f1d;
-    --bs-btn-border-color: #ffe600;
-    --bs-btn-hover-color: black;
-    --bs-btn-hover-bg: #ffe600;
-    --bs-btn-hover-border-color: #ffe600;
-
-}
-
-
 .icon {
     max-width: 30px;
 }
@@ -93,9 +81,19 @@ section {
 
     body {
         min-width: 550px;
-        overflow-x: hidden;
-    }
 
+    }
+    
+    .btn-primary {
+        padding: 10px;
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #0a0f1d;
+        --bs-btn-border-color: #ffe600;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #0a0f1d;
+        --bs-btn-hover-border-color: #ffe600;
+    }
+    
     .h2 {
         font-size: 15px;
     }
